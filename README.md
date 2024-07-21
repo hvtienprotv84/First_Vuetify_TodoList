@@ -4,7 +4,7 @@
   <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vue.png" width="160"/> &nbsp; &nbsp;
 </div>
 
-# TodoList - Vuetify
+# First Vuetify - TodoList
 - Vue 2
 - Vuetify (Framework của VueJS)
 - VueX
