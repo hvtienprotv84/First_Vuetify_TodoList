@@ -9,6 +9,7 @@
 - Vuetify (Framework của VueJS)
 - VueX
 - Docker
+- Responsive Website và Mobile
 
 # RUN
 - `npm install`
