@@ -8,27 +8,21 @@
 - `npm install`
 - `npm run serve`
 
+# Build Và Chạy Dự Án Trên Docker
 
-
-\* **What is need**
+# **Yêu Cầu:**
 
 - [Docker](https://www.docker.com/get-started)
 - [Docker Compose](https://docs.docker.com/compose/install)
 
-## Project setup || Compiles and hot-reloads for development
-
+### Chạy Và Build Dự Án lên "Images" của Docker 
+- (Bước 1 chỉ Build Dự Án Chưa Có Thể Chạy Dự Án Trên Port của Docker)
 ```
 docker-compose up -d
 ```
 
-### Compiles and minifies for production
-
-\* **Inside container**
-
+### Chạy Và Build Dự Án lên "Containers" của Docker 
+- (Bước 2 Đã Hoàn Thiện Vì Đã Đưa Dự Án lên "Containers" của Docker và Chạy Dự Án Với Port: `http://localhost:8080/` của Docker)
 ```
 yarn build
 ```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
